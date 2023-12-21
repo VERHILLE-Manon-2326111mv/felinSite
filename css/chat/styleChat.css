@@ -1,0 +1,22 @@
+/*Modification du body.*/
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: linear-gradient(to bottom right, #ffcdaa, #b5a797);
+}
+
+/*Modification de la balise h1.*/
+h1 {
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  text-align: center;
+  font-size: 5em;
+}
+
+/*Modification de la couleur des liens avant d'être consultés..*/
+a:hover {
+  color: #621f09;
+}
+
+/*Modification de la couleur des liens consultés.*/
+a:visited {
+  color: #c89528;
+}

@@ -1,0 +1,21 @@
+
+
+.image-container {
+ position: absolute;
+ bottom: 0;
+ width: 100%;
+ overflow: hidden;
+}
+
+.image-container img {
+ width: 100%;
+ height: auto;
+ position: relative;
+ top: 100%;
+ animation: slideUp 2s forwards;
+}
+
+@keyframes slideUp {
+ from { top: 100%; }
+ to   { top: 0; }
+}

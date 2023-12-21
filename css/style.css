@@ -1,0 +1,16 @@
+/*Modification du body.*/
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: linear-gradient(to bottom right, #ffcdaa, #b5a797);
+}
+
+li:nth-child(odd)>span {
+  background: red;
+}
+
+/*Modification de la balise h1.*/
+h1 {
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  text-align: center;
+  font-size: 5em;
+}

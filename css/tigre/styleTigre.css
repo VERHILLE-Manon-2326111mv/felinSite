@@ -1,0 +1,27 @@
+li.anecdote>span:hover {
+  color: #26a269;
+}
+
+body {
+  background-color: #ffdec8;
+}
+
+@keyframes slideinLeftToMiddle {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+h1 {
+  animation-duration: 2s;
+  animation-name: slideinLeftToMiddle;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  text-align: center;
+  font-size: 5em;
+}
